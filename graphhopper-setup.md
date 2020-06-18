@@ -14,3 +14,9 @@ cat unmatchedlist | sed -e 's/\>\s//g' > gpxunmatchedlist2
 
 cat ../gpxunmatchedlist2.txt | while read line; do java -jar matching-web/target/graphhopper-map-matching-web-1.0-SNAPSHOT.jar match '/mnt/c/Users/bitas/folders/Uber/gpx_files/'$line > '/mnt/c/Users/bitas/folders/Uber/gpx_matched/'$line'_log.txt'; done
 
+
+
+
+#### changes in intellij we made to be able to use profile "bfoot":
+
+
